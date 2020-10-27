@@ -31,7 +31,7 @@ ext {
     retrofitVersion = '2.3.0'
 
     //Okhttp
-    okhttpVersion = '3.2.0'
+    okhttpVersion = '4.2.1'
 
     //Gson
     gsonVersion = '2.8.5'
@@ -71,7 +71,9 @@ ext {
 
             room                 : "androidx.room:room-runtime:$roomVersion",
             roomRxJava           : "androidx.room:room-rxjava2:$roomVersion",
-            roomCompiler         : "androidx.room:room-compiler:$roomVersion"
+            roomCompiler         : "androidx.room:room-compiler:$roomVersion",
+
+            okhttp3              : "com.squareup.okhttp3:okhttp:$okhttpVersion"
     ]
 
     testDependecies = [
