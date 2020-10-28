@@ -15,7 +15,7 @@ val remoteDataSourceModule = module {
     single {
         createWebService<ProductAPI>(
             okHttpClient = get(),
-            url = "http://www.mocky.io"
+            url = "https://www.mocky.io"
         )
     }
     factory<ProductRemoteDataSource> {
